@@ -27,6 +27,11 @@
 				<input type="submit" value="Delete Player">
 				<input type="hidden" name = "id" value="${player.id}">
 			</form>
+			
+	<form action="updatePlayer.do" method=GET>
+				<input type="submit" value="Edit/Update Player">
+				<input type="hidden" name = "id" value="${player.id}">
+			</form>
 	
 
 </body>

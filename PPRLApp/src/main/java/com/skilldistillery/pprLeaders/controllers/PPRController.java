@@ -58,7 +58,7 @@ public class PPRController {
 	}
 	
 	
-	//CREATES PLAYER
+	//DELETES PLAYER
 	@RequestMapping(path="deletePlayer.do", method= RequestMethod.POST)
 	public ModelAndView deletePlayer(int id) {
 		ModelAndView mv = new ModelAndView();
@@ -86,5 +86,25 @@ public class PPRController {
 		mv.setViewName("deletionDetail");
 		return mv;
 	}
+	
+	@RequestMapping(path="updatePlayer.do", params = "id", method = RequestMethod.GET)
+	public ModelAndView moveToUpdatePlayerFrom(int id) {
+		ModelAndView mv = new ModelAndView();
+		Player updatee = dao.findById(id);
+		mv.addObject("player", updatee);
+		mv.setViewName("updatePlayer");
+		return mv;
+	}
+	
+	@RequestMapping(path="finishUpdatePlayer.do", params = "id")
+	public ModelAndView updatePlayer(int id, Player player) {
+		ModelAndView mv = new ModelAndView();
+		Player updatee = dao.updatePlayer(id, player);
+		mv.addObject("player", updatee);
+		mv.setViewName("playerDetail");
+		return mv;
+	}
+	
+	
 	
 }

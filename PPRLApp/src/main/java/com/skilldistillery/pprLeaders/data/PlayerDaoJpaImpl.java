@@ -47,4 +47,27 @@ public class PlayerDaoJpaImpl implements PprDAO {
 		return !stillContains;
 	}
 
+	@Override
+	public Player updatePlayer(int id, Player player) {
+		
+		
+		Player updatee = em.find(Player.class, id);
+		
+		
+		updatee.setFirstName(player.getFirstName());
+		updatee.setLastName(player.getLastName());
+		updatee.setPosition(player.getPosition());
+		updatee.setPprPoints(player.getPprPoints());
+		updatee.setTouchdowns(player.getTouchdowns());
+		updatee.setReceptions(player.getReceptions());
+		updatee.setRecYards(player.getRecYards());
+		updatee.setRushAttempts(player.getRushAttempts());
+		updatee.setRushYards(player.getRushYards());
+		updatee.setAdp(player.getAdp());
+		em.flush();
+		
+		
+		return updatee;
+	}
+
 }
