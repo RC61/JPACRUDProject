@@ -7,12 +7,16 @@
 <title>PPR Leaderboards</title>
 </head>
 <body>
-<h1>YO DAD</h1>
+<h1>Fantasy Football Leaders</h1>
 
 <h3>
 <a href="listAll.do">Show PPR Leaders</a>
 </h3>
 
+
+<form action="creationBuffer.do" method="GET">
+	<input type="submit" value="Create a Player">
+</form>
 
 <form action="getPlayer.do" method="GET">
 	Player ID: <input type="text" name="pid" /><input type="submit"

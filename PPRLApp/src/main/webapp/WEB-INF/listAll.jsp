@@ -14,10 +14,10 @@
 
 <h3>Click on a player to view their details</h3>
 
-	<ul>
+	<tr>
 	<c:forEach var="p" items="${players}">
-	<li><a href="getPlayer.do?pid=${p.id}">${p.firstName} ${p.lastName}</a></li>
-	</ul>
+	<td><a href="getPlayer.do?pid=${p.id}">${p.firstName} ${p.lastName}</a></td>
+	</tr>
 	
 	</c:forEach>
 

@@ -18,6 +18,10 @@
 	<h1>Recieving Yards: ${player.recYards}</h1>
 	<h1>Average Draft Position: ${player.adp}</h1>
 	
+	<form action="index.do" method="GET">
+	<input type="submit" value="Head Back Home">
+</form>
+	
 
 </body>
 </html>

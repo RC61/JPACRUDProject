@@ -44,9 +44,15 @@ public class PPRController {
 		return mv;
 	}
 	
-	@RequestMapping(path="createPlayerForm.do")
+	@RequestMapping(path="creationBuffer.do")
 	public String moveToCreatePlayerForm() {
 		return "createPlayer";
 	}
+	
+	@RequestMapping(path="index.do")
+	public String headOnHome() {
+		return "index";
+	}
+	
 	
 }
