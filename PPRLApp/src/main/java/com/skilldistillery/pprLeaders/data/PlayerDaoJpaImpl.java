@@ -31,4 +31,11 @@ public class PlayerDaoJpaImpl implements PprDAO {
 		return players;
 	}
 
+	@Override
+	public Player createPlayer(Player newPlayer) {
+		em.persist(newPlayer);
+		em.flush();
+		return newPlayer;
+	}
+
 }

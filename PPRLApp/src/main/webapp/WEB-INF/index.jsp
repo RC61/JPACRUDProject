@@ -7,7 +7,7 @@
 <title>PPR Leaderboards</title>
 </head>
 <body>
-<h1>Hello</h1>
+<h1>YO DAD</h1>
 
 <h3>
 <a href="listAll.do">Show PPR Leaders</a>
