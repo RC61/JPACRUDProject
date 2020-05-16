@@ -10,9 +10,13 @@
 </head>
 <body>
 
+<h1>PPR LEADERS OF 2019</h1>
+
+<h3>Click on a player to view their details</h3>
+
 	<ul>
 	<c:forEach var="p" items="${players}">
-	<li><a href="getPlayer.do?pid=${p.id}">${player.firstName}</a></li>
+	<li><a href="getPlayer.do?pid=${p.id}">${p.firstName} ${p.lastName}</a></li>
 	</ul>
 	
 	</c:forEach>

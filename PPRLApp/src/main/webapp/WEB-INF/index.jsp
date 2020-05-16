@@ -9,7 +9,9 @@
 <body>
 <h1>Hello</h1>
 
-<a href="listAll.do">Click Me</a>
+<h3>
+<a href="listAll.do">Show PPR Leaders</a>
+</h3>
 
 
 <form action="getPlayer.do" method="GET">

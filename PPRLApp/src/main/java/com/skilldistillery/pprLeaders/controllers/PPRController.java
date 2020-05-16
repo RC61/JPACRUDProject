@@ -18,7 +18,7 @@ public class PPRController {
 	private PprDAO dao;
 	
 	@RequestMapping(path="listAll.do")
-	public String listEm(Model model) {
+	public String listAll(Model model) {
 		List<Player> players = dao.findAll();
 		model.addAttribute("players", players);
 		return "listAll";

@@ -47,6 +47,7 @@ class PlayerTest {
 		assertNotNull(player);
 		assertEquals("Create", player.getFirstName());
 		assertEquals("APlayer", player.getLastName());
+		assertEquals(1, player.getPprPoints());
 	}
 
 }

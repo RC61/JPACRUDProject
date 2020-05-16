@@ -22,8 +22,16 @@ DROP TABLE IF EXISTS `player` ;
 
 CREATE TABLE IF NOT EXISTS `player` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `first_name` VARCHAR(45) NOT NULL,
-  `last_name` VARCHAR(45) NOT NULL,
+  `first_name` VARCHAR(45) NOT NULL DEFAULT 'FirstName',
+  `last_name` VARCHAR(45) NOT NULL DEFAULT 'LastName',
+  `position` VARCHAR(45) NULL,
+  `total_ppr_points` INT NULL,
+  `touchdowns` INT NULL,
+  `receptions` INT NULL,
+  `rec_yards` INT NULL,
+  `rush_attempts` INT NULL,
+  `rush_yards` INT NULL,
+  `adp` DOUBLE NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
@@ -43,7 +51,8 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `ppr_leaderboard`;
-INSERT INTO `player` (`id`, `first_name`, `last_name`) VALUES (1, 'Create', 'APlayer');
+INSERT INTO `player` (`id`, `first_name`, `last_name`, `position`, `total_ppr_points`, `touchdowns`, `receptions`, `rec_yards`, `rush_attempts`, `rush_yards`, `adp`) VALUES (1, 'Create', 'APlayer', 'WR/RB/TE', 1, 1, 1, 1, 1, 1, 1);
+INSERT INTO `player` (`id`, `first_name`, `last_name`, `position`, `total_ppr_points`, `touchdowns`, `receptions`, `rec_yards`, `rush_attempts`, `rush_yards`, `adp`) VALUES (2, 'Billy', 'Buster', 'RB', 2, 2, 2, 2, 2, 2, 2);
 
 COMMIT;
 
