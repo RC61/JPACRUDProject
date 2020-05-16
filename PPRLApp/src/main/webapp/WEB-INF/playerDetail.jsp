@@ -20,7 +20,13 @@
 	
 	<form action="index.do" method="GET">
 	<input type="submit" value="Head Back Home">
-</form>
+	</form>
+
+
+	<form action="deletionBuffer.do" method=GET>
+				<input type="submit" value="Delete Player">
+				<input type="hidden" name = "id" value="${player.id}">
+			</form>
 	
 
 </body>

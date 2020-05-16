@@ -38,4 +38,13 @@ public class PlayerDaoJpaImpl implements PprDAO {
 		return newPlayer;
 	}
 
+	@Override
+	public boolean deletePlayer(int id) {
+		em.remove(em.find(Player.class, id));
+		em.flush();
+		boolean stillContains = em.contains(em.find(Player.class, id));
+		System.out.println(stillContains);
+		return !stillContains;
+	}
+
 }

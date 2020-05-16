@@ -19,6 +19,12 @@ public class PPRController {
 	@Autowired
 	private PprDAO dao;
 	
+	//FOR THE HOME BUTTON
+	@RequestMapping(path="index.do")
+	public String headOnHome() {
+		return "index";
+	}
+	
 	//LISTS ALL PLAYERS
 	@RequestMapping(path="listAll.do")
 	public String listAll(Model model) {
@@ -44,15 +50,41 @@ public class PPRController {
 		return mv;
 	}
 	
+	
+	//BUFFER FOR CREATE PLAYER
 	@RequestMapping(path="creationBuffer.do")
 	public String moveToCreatePlayerForm() {
 		return "createPlayer";
 	}
 	
-	@RequestMapping(path="index.do")
-	public String headOnHome() {
-		return "index";
+	
+	//CREATES PLAYER
+	@RequestMapping(path="deletePlayer.do", method= RequestMethod.POST)
+	public ModelAndView deletePlayer(int id) {
+		ModelAndView mv = new ModelAndView();
+		boolean result = dao.deletePlayer(id);
+		if (result == true) {
+			String advisory = "Player deleted successfully.";
+			mv.addObject("advisory", advisory);
+		}else {
+			String advisory = "Deletion unsuccessful.";
+			mv.addObject("advisory", advisory);
+		}
+		
+		mv.setViewName("deletionLanding");
+		
+		return mv;
+
 	}
 	
+	//BUFFER FOR DELETE PLAYER
+	@RequestMapping(path="deletionBuffer.do")
+	public ModelAndView moveToDeletePlayerForm(int id) {
+		ModelAndView mv = new ModelAndView();
+		Player toDelete = dao.findById(id);
+		mv.addObject("player", toDelete);
+		mv.setViewName("deletionDetail");
+		return mv;
+	}
 	
 }
