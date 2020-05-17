@@ -156,7 +156,6 @@ p {
 
 </style>
 
-
 	
 </head>
 <body>
@@ -226,6 +225,8 @@ var x = setInterval(function() {
   <span class="drop"></span>
   <span class="drop"></span>
 </h1>
+
+
 
 </body>
 </html>

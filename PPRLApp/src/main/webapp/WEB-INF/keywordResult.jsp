@@ -34,6 +34,7 @@
 				<input type="submit" value="Edit/Update Player">
 				<input type="hidden" name = "id" value="${play.id}">
 			</form>
+			<strong>---------------------------------------------------</strong>
 </c:forEach>
 	
 	

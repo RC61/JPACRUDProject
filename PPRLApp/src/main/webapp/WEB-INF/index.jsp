@@ -24,38 +24,35 @@
 
 </head>
 <body>
-	<div class="d-flex p-2">
-		<h1 class="text-primary">Fantasy Football Leaderboards</h1>
-	</div>
-
-	<h3>
-		<a href="listAll.do">Show PPR Leaders</a>
-	</h3>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-sm">
+	<div>
+		<h2>
+			<br>
+			<div class="container">
 				<form action="creationBuffer.do" method="GET">
 					Create A Player: <input type="submit" value="Create a Player">
 				</form>
 			</div>
+			<br>
 
-			<div class="col-sm">
+			<div class="container">
 				<form action="getPlayer.do" method="GET">
 					Player ID: <input type="text" name="pid" /><input type="submit"
 						value="Show Player" />
 				</form>
 			</div>
+			<br>
 
-			<div class="col-sm">
+
+			<div class="container">
 				<form action="keywordSearch.do" method="GET">
 					Search Player by name: <br> <input type="text" name="keyword">
-					<input type="submit" value="submit">
+					<input type="submit" value="Search">
 				</form>
 			</div>
-		</div>
-	</div>
-	<jsp:include page="bootstrapFoot.jsp" />
+			<br>
 
+		</h2>
+
+	</div>
 </body>
 </html>

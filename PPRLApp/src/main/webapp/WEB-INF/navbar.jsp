@@ -6,7 +6,16 @@
 	<div class="collapse" id="navbarToggleExternalContent">
 		<div class="bg-dark p-4">
 			<h4 class="text-white">Why does nothing work on this page??</h4>
-			<a href="sandBox.do">Sandbox</a> <span class="text-muted">¯\_(ツ)_/¯</span>
+			<a href="sandBox.do">
+			
+|￣￣￣￣￣￣￣ |<br>
+| Do Not Click|<br>
+|＿＿＿＿＿ _＿_|<br>
+(\__/) ||<br>
+(•ㅅ•) ||<br>
+/ 　 づ<br>
+
+			</a> <span class="text-muted">You were warned...</span>
 		</div>
 	</div>
 	<nav class="navbar navbar-dark bg-dark">
@@ -18,6 +27,9 @@
 		</button>
 	</nav>
 </div>
+<nav class="navbar navbar-light" style="background-color: orange;">
+		<h1><p class="text-center"><kbd>Fantasy Football Leaderboards</kbd></p></h1>
+</nav>
 
 <nav class="navbar sticky-top navbar-dark bg-dark">
 	<tr class="navbar-nav">
@@ -38,7 +50,7 @@
     <p class="text-warning">
 					<strong>Search Player by name:</strong></p>
       <input type="text" placeholder="Put Stuff Here" name="keyword">
-      <input type="submit" value="search">
+      <input type="submit" value="Search">
      
     </form>
 </th>
