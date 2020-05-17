@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	
+	
 <div class="pos-f-t">
 	<div class="collapse" id="navbarToggleExternalContent">
 		<div class="bg-dark p-4">
 			<h4 class="text-white">Why does nothing work on this page??</h4>
-				<a href="sandBox.do">Sandbox</a>
-			
-			<span class="text-muted">¯\_(ツ)_/¯</span>
+			<a href="sandBox.do">Sandbox</a> <span class="text-muted">¯\_(ツ)_/¯</span>
 		</div>
 	</div>
 	<nav class="navbar navbar-dark bg-dark">
@@ -19,19 +19,30 @@
 	</nav>
 </div>
 
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar sticky-top navbar-dark bg-dark">
 	<tr class="navbar-nav">
 		<th class="nav-item"><a class="nav-link" href="index.do"><p
-					class="text-warning">Home</p></a></th>
+					class="text-warning">
+					<strong>Home</strong>
+				</p></a></th>
 
 		<th class="nav-item"><a class="nav-link" href="listAll.do"><p
-					class="text-warning">Show All Players</p> </a></th>
+					class="text-warning">
+					<strong>Show All Players</strong>
+				</p> </a></th>
 
-		<th class="nav-item"><a class="nav-link"
-			action="keywordSearch.do" method="GET">
-				<p class="text-warning">Search Player by name:</p> <input
-				type="text" name="keyword"> <input type="submit"
-				value="submit">
-		</a></th>
+		
+		<th> 
+		
+    <form action="keywordSearch.do">
+    <p class="text-warning">
+					<strong>Search Player by name:</strong></p>
+      <input type="text" placeholder="Put Stuff Here" name="keyword">
+      <input type="submit" value="search">
+     
+    </form>
+</th>
+
+
 	</tr>
 </nav>
