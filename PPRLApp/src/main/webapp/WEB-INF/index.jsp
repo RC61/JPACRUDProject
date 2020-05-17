@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<h1>Fantasy Football Leaders</h1>
+<h1>Fantasy Football Leaderboards</h1>
 <jsp:include page="navbar.jsp" />
 
 <h3>

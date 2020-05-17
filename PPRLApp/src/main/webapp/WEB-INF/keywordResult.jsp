@@ -14,6 +14,7 @@
 </head>
 <body>
 
+	<c:forEach var="play" items="${players}">
 	<h1>First Name: ${play.firstName}</h1>
 	<h1>Last Name: ${play.lastName}</h1>
 	<h1>Position: ${play.position}</h1>
@@ -33,7 +34,7 @@
 				<input type="submit" value="Edit/Update Player">
 				<input type="hidden" name = "id" value="${play.id}">
 			</form>
-
+</c:forEach>
 	
 	
 
