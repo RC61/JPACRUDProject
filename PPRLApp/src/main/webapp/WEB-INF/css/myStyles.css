@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+
+
 body {
-  background-color: crimson;
+  background-color: crimson !important;
 }
 
-h1 {
-  color: red;
-  margin-left: 20px;
+.header {
+  color: red !important;
+  margin-left: 20px !important;
 }
+

@@ -117,4 +117,10 @@ public class PPRController {
 	}
 	
 	
+	//FOR THE HOME BUTTON
+	@RequestMapping(path="sandBox.do")
+	public String headToTheBox() {
+		return "sandBox";
+	}
+	
 }
