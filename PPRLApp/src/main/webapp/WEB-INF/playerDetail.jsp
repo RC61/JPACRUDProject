@@ -5,6 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Player Details</title>
+<jsp:include page="bootstrapHead.jsp" />
+<jsp:include page="navbar.jsp" />
 </head>
 <body>
 

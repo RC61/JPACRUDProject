@@ -8,6 +8,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Update a Player</title>
+<jsp:include page="bootstrapHead.jsp" />
+<jsp:include page="navbar.jsp" />
 </head>
 <body>
 

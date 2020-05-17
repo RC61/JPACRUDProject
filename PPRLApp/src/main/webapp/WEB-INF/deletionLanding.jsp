@@ -8,6 +8,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Player Info</title>
+<jsp:include page="bootstrapHead.jsp" />
+<jsp:include page="navbar.jsp" />
+
 </head>
 <body>
 	<h1>Task Outcome</h1>

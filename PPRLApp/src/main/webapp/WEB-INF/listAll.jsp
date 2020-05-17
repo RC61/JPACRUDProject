@@ -7,11 +7,12 @@
 <head>
 <meta charset="UTF-8">
 <title>List All Players</title>
+<jsp:include page="bootstrapHead.jsp" />
+<jsp:include page="navbar.jsp" />
 </head>
 <body>
 
 <h1>PPR LEADERS OF 2019</h1>
-<jsp:include page="navbar.jsp" />
 
 <h3>Click on a player to view their details</h3>
 

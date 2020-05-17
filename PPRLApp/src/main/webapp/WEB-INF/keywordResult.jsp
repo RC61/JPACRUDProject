@@ -9,7 +9,7 @@
 <meta charset="UTF-8">
 <title>Search Results</title>
 <jsp:include page="navbar.jsp" />
-
+<jsp:include page="bootstrapHead.jsp" />
 
 </head>
 <body>

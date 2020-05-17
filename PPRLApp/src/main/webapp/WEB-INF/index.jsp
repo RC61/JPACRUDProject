@@ -9,11 +9,12 @@
 <meta charset="UTF-8">
 <title>PPR Leaderboards</title>
 
-
+<jsp:include page="bootstrapHead.jsp" />
+<jsp:include page="navbar.jsp" />
 </head>
 <body>
+      
 <h1>Fantasy Football Leaderboards</h1>
-<jsp:include page="navbar.jsp" />
 
 <h3>
 <a href="listAll.do">Show PPR Leaders</a>
