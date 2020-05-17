@@ -9,7 +9,8 @@ public interface PprDAO {
 	public Player createPlayer(Player newPlayer);
 	public boolean deletePlayer(int id);
 	public Player updatePlayer(int id, Player player);
-	List<Player> findAll();
+	public List<Player> findAll();
+	public List<Player> findPlayerWithKeyword(String keyword);
 	
 	
 

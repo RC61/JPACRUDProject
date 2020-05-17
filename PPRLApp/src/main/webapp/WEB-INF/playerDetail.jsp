@@ -15,7 +15,7 @@
 	<h1>Rush Attempts: ${player.rushAttempts}</h1>
 	<h1>Rush Yards: ${player.rushYards}</h1>
 	<h1>Receptions: ${player.receptions}</h1>
-	<h1>Recieving Yards: ${player.recYards}</h1>
+	<h1>Receiving Yards: ${player.recYards}</h1>
 	<h1>Average Draft Position: ${player.adp}</h1>
 	
 	<form action="index.do" method="GET">

@@ -8,7 +8,8 @@
 <head>
 <meta charset="UTF-8">
 <title>PPR Leaderboards</title>
-<jsp:include page="bootstrapHead.jsp" />
+
+
 </head>
 <body>
 <h1>Fantasy Football Leaders</h1>
@@ -28,7 +29,13 @@
 		value="Show Player" />
 </form>
 
+	<form action="keywordSearch.do" method="GET">
+		Search Player by name <br> <input type="text" name="keyword"> <input
+			type="submit" value="submit">
+	</form>
+
 <jsp:include page="bootstrapFoot.jsp"/>
+
 
 </body>
 </html>

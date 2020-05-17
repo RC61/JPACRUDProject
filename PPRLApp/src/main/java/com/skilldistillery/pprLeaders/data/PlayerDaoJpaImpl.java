@@ -70,4 +70,12 @@ public class PlayerDaoJpaImpl implements PprDAO {
 		return updatee;
 	}
 
+	@Override
+	public List<Player> findPlayerWithKeyword(String keyword) {
+		List<Player> resultPool = null;
+		String jpql = "Select find from Player find where find.lastName like :key or find.firstName like :key or find.position like :key";
+		resultPool = em.createQuery(jpql, Player.class).setParameter("key", keyword).getResultList();
+		return resultPool;
+	}
+
 }

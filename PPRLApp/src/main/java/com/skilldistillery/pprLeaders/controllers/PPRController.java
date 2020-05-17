@@ -105,6 +105,16 @@ public class PPRController {
 		return mv;
 	}
 	
+	@RequestMapping(path="keywordSearch.do", params = "keyword")
+	public ModelAndView findPlayers(String keyword) {
+		ModelAndView mv = new ModelAndView();
+		List<Player> resultPool = dao.findPlayerWithKeyword(keyword);
+		mv.addObject("players", resultPool);
+		mv.setViewName("keywordResult");
+		return mv;
+		
+		
+	}
 	
 	
 }
