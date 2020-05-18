@@ -48,7 +48,7 @@
 		
     <form action="keywordSearch.do">
     <p class="text-warning">
-					<strong>Search Player by name:</strong></p>
+					<strong>Search Player by first name, last name or position:</strong></p>
       <input type="text" placeholder="Put Stuff Here" name="keyword">
       <input type="submit" value="Search">
      

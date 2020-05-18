@@ -154,11 +154,25 @@ p {
   margin-top: 0px;
 }
 
+
+p.test {
+font-size: medium;
+  width: 31em; 
+  border: 23px solid #000000;
+  word-wrap: break-word;
 </style>
 
 	
 </head>
 <body>
+<h1 class="title">
+  <strong>HELP</strong>
+  <span class="drop"></span>
+  <span class="drop"></span>
+  <span class="drop"></span>
+  <span class="drop"></span>
+  <span class="drop"></span>
+</h1>
 
 
 <h1><span class="blinking">YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT YOU BROKE IT YOU BROKE IT.</span></h1> 
@@ -207,6 +221,7 @@ var x = setInterval(function() {
 </body>
 </html>
 
+<p class="test"> This paragraph contains a very long word: thisisaveryveryveryveryveryveryveryveryveryveryeveryveryveryveryveryveryveryveryveryveryveryveryveryveryeveryveryveryveryveryveryveryveryveryveryveryveryveryveryeveryveryveryveryveryveryveryveryveryveryveryveryveryveryeveryveryveryveryveryveryveryveryveryveryveryveryveryveryeveryveryveryveryveryveryveryveryveryveryveryveryveryveryeveryveryveryverylongword. The long word will break and wrap to the next line.</p>
 
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 0;height: 0;">
@@ -218,15 +233,6 @@ var x = setInterval(function() {
     </filter>
   </defs>
 </svg>
-
-<h1 class="title">
-  <strong>HELP</strong>
-  <span class="drop"></span>
-  <span class="drop"></span>
-  <span class="drop"></span>
-  <span class="drop"></span>
-  <span class="drop"></span>
-</h1>
 
 
 

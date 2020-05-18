@@ -17,31 +17,32 @@
 <jsp:include page="navbar.jsp" />
 </head>
 <body>
-<div class="playerBody">
+<div class="indexBody">
 
 <h1>PPR LEADERS OF 2019</h1>
 
 <h3>Click on a player to view their details</h3>
 
+<div class="playerBody">
 <div class="container">
 	<table class="meTables">
 	<thead>
 		<tr>
-		<th>Player</th>
+		<th><h4 class="titleList"><u>Player List:</u></h4></th>
 		</tr>
 	</thead>
 	<tbody>
 	<c:forEach var="p" items="${players}">
 	<tr>
-	<td><a href="getPlayer.do?pid=${p.id}">${p.firstName} ${p.lastName} ${p.position}
-	</a></td>
+	<td><a href="getPlayer.do?pid=${p.id}"><h6 class="oof">${p.firstName} ${p.lastName} ${p.position}</h6></a></td>
 	</tr>
 	</c:forEach>
 	</tbody>
 	</table>
 
-</div>
 
+</div>
+</div>
 </div>
 </body>
 </html>
