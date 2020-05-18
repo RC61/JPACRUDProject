@@ -5,20 +5,23 @@
 <head>
 <meta charset="UTF-8">
 <title>Player Details</title>
+<link rel="stylesheet" type="text/css" href="/css/myStyles.css"> 
 <jsp:include page="bootstrapHead.jsp" />
 <jsp:include page="navbar.jsp" />
 </head>
 <body>
 
-	<h1>First Name: ${player.firstName}</h1>
-	<h1>Last Name: ${player.lastName}</h1>
-	<h1>Position: ${player.position}</h1>
-	<h1>Total PPR Points: ${player.pprPoints}</h1>
-	<h1>Rush Attempts: ${player.rushAttempts}</h1>
-	<h1>Rush Yards: ${player.rushYards}</h1>
-	<h1>Receptions: ${player.receptions}</h1>
-	<h1>Receiving Yards: ${player.recYards}</h1>
-	<h1>Average Draft Position: ${player.adp}</h1>
+	<div class="playerBody">
+
+	<h2>First Name: ${player.firstName}</h2>
+	<h2>Last Name: ${player.lastName}</h2>
+	<h2>Position: ${player.position}</h2>
+	<h2>Total PPR Points: ${player.pprPoints}</h2>
+	<h2>Rush Attempts: ${player.rushAttempts}</h2>
+	<h2>Rush Yards: ${player.rushYards}</h2>
+	<h2>Receptions: ${player.receptions}</h2>
+	<h2>Receiving Yards: ${player.recYards}</h2>
+	<h2>Average Draft Position: ${player.adp}</h2>
 	
 	<form action="index.do" method="GET">
 	<input type="submit" value="Head Back Home">
@@ -35,6 +38,7 @@
 				<input type="hidden" name = "id" value="${player.id}">
 			</form>
 	
+	</div>
 
 </body>
 </html>

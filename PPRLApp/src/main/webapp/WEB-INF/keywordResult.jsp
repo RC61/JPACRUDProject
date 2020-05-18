@@ -8,6 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Search Results</title>
+<link rel="stylesheet" type="text/css" href="/css/myStyles.css"> 
 <jsp:include page="navbar.jsp" />
 <jsp:include page="bootstrapHead.jsp" />
 

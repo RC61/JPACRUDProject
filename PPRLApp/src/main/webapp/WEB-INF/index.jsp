@@ -17,7 +17,7 @@
 
 <title>PPR Leaderboards</title>
 
-<!-- <link rel="stylesheet" type="text/css" href="/css/myStyles.css"> -->
+<link rel="stylesheet" type="text/css" href="/css/myStyles.css"> 
 
 <jsp:include page="bootstrapHead.jsp" />
 <jsp:include page="navbar.jsp" />
@@ -25,7 +25,10 @@
 </head>
 <body>
 	<div>
-		<h2>
+		<h2 class="indexBody">
+			<br>
+			<br>
+			<br>
 			<br>
 			<div class="container">
 				<form action="creationBuffer.do" method="GET">

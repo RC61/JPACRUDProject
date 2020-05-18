@@ -2,12 +2,21 @@
 
 
 
-body {
-  background-color: crimson !important;
-}
 
-.header {
-  color: red !important;
+.indexBody {
+  color: orange !important;
   margin-left: 20px !important;
+  font-family: Arial Black !important;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.playerBody {
+  color: #303030 !important;
+  margin-left: 10px !important;
+  font-family: Arial Black !important;
+   text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
+
+body {
+  background-color: #DCDCDC !important;
+}
