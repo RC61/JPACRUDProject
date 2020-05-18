@@ -10,7 +10,7 @@ war {
   // Gradle will replace the variable baseName
   // with our app name, as defined in settings.gradle
   archiveName = "${baseName}.war"
-  destinationDir = file("./")         // Project root directory
+  destinationDir = file("../")         // Project root directory
 }
 
 group = 'com.example'
