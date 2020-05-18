@@ -19,9 +19,11 @@
 <body>
 <div class="indexBody">
 
+<div class="container">
 <h1>PPR LEADERS OF 2019</h1>
 
 <h3>Click on a player to view their details</h3>
+</div>
 
 <div class="playerBody">
 <div class="container">

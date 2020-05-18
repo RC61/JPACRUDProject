@@ -26,20 +26,23 @@
 <body>
 	<div>
 		<h2 class="indexBody">
+		
+			<div class="container">
+		<h1><bold>HOME PAGE</bold></h1>
 			<br>
 			<br>
 			<br>
-			<br>
+			</div>
 			<div class="container">
 				<form action="creationBuffer.do" method="GET">
-					Create A Player: <input type="submit" value="Create a Player">
+					Create A Player:<br><input type="submit" value="Create a Player">
 				</form>
 			</div>
 			<br>
 
 			<div class="container">
 				<form action="getPlayer.do" method="GET">
-					Player ID: <input type="text" name="pid" /><input type="submit"
+					Player ID:<br> <input type="text" name="pid" /><input type="submit"
 						value="Show Player" />
 				</form>
 			</div>
@@ -48,7 +51,7 @@
 
 			<div class="container">
 				<form action="keywordSearch.do" method="GET">
-					Search Player by name: <br> <input type="text" name="keyword">
+					Search Player by first name, last name or position: <br> <input type="text" name="keyword">
 					<input type="submit" value="Search">
 				</form>
 			</div>

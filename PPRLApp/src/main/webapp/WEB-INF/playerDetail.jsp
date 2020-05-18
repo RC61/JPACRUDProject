@@ -11,6 +11,14 @@
 </head>
 <body>
 
+	
+	
+	<div class="container">
+	<div class="indexBody">
+<h1>Player Details</h1>
+<br>
+</div>
+	</div>
 	<div class="playerBody">
 
 	<h2>First Name: ${player.firstName}</h2>
