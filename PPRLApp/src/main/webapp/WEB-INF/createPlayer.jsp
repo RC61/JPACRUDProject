@@ -26,7 +26,7 @@
 		<br>
 		Position:<input type="text" name="position" size="45" required> 
 		<br>
-		Total PPR Points: <input type="text" name="pprPoints" size="5" required> 
+		Total PPR Points: <input type="number" name="pprPoints" size="5" required> 
 		<br>
 		Rush Attempts: <input type="number" name="rushAttempts" size="10" required>
 		<br>
