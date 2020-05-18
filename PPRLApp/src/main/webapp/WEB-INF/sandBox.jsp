@@ -161,8 +161,8 @@ p {
 <body>
 
 
-<h1><span class="blinking">WHAT IS GOING ON!?!?!?!?!?!?!?!?</span></h1> 
-<h1><span class="blinkings">WOAAAAAAAAAAAAHHHHHHHHHHHHHHHHHH</span></h1> 
+<h1><span class="blinking">YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT. YOU BROKE IT YOU BROKE IT YOU BROKE IT.</span></h1> 
+<h1><span class="blinkings">DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO</span></h1> 
 
 <p> BRAIN MELTDOWN COUNTDOWN </p>
 <p id="demo"></p>
@@ -201,6 +201,8 @@ var x = setInterval(function() {
 <a href="index.do">
 <p><span class ="leaveMe"> LEAVE WHILE YOU STILL CAN!!!</span><p>
 </a>
+<h1><span class="blinkings">¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯ ¯\_(ツ)_/¯</span></h1> 
+<h1><span class="blinkings">DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO DAO </span></h1> 
 
 </body>
 </html>
@@ -225,6 +227,7 @@ var x = setInterval(function() {
   <span class="drop"></span>
   <span class="drop"></span>
 </h1>
+
 
 
 

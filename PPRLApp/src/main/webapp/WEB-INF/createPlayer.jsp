@@ -14,6 +14,8 @@
 </head>
 <body>
 
+	<div class="createBody">
+
 	<h1>Create a Player</h1>
 	<h4>Fill out the form below:</h4>
 
@@ -38,5 +40,6 @@
 		<br>
 		<input type="submit" class="button" value="Submit" />
 	</form>
+	</div>
 </body>
 </html>

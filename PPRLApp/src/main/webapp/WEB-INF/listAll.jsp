@@ -24,7 +24,7 @@
 <h3>Click on a player to view their details</h3>
 
 <div class="container">
-	<table class="table table-bordered">
+	<table class="meTables">
 	<thead>
 		<tr>
 		<th>Player</th>
@@ -39,6 +39,7 @@
 	</c:forEach>
 	</tbody>
 	</table>
+
 </div>
 
 </div>

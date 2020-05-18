@@ -13,6 +13,7 @@
 <jsp:include page="navbar.jsp" />
 </head>
 <body>
+<div class="playerBody">
 
 	<h1>Update ${player.firstName } ${player.lastName}</h1>
 	<h4>Choose the following to update:</h4>
@@ -36,11 +37,12 @@
 		<br>
 		Receiving Yards: <input type="text" name="recYards" value = "${player.recYards}" size="10" required> 
 		<br>
-		Average Draft Positon: <input type="text" name="adp" value = "${player.adp}" size="10" required> 
+		Average Draft Position: <input type="text" name="adp" value = "${player.adp}" size="10" required> 
 		
 		<br>
 		<input type="submit" class="button" value="Submit" />
 		<input type="hidden" value="${player.id}" name="id">
 	</form>
+</div>
 </body>
 </html>

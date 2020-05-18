@@ -14,6 +14,7 @@
 
 </head>
 <body>
+	<div class="playerBody">
 	<h1>Task Outcome</h1>
 	<h2>${advisory}</h2>
 	
@@ -21,5 +22,6 @@
 	<input type="submit" value="Head Back Home">
 	</form>
 	
+	</div>
 </body>
 </html>

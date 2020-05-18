@@ -13,6 +13,7 @@
 <jsp:include page="navbar.jsp" />
 </head>
 <body>
+<div class="playerBody">
 
 	<c:choose>
 		<c:when test="${!empty player }">
@@ -33,5 +34,6 @@
 			<p>No Player Found</p>
 		</c:otherwise>
 	</c:choose>
+</div>
 </body>
 </html>

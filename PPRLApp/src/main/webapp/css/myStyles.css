@@ -10,13 +10,26 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+
 .playerBody {
-  color: #303030 !important;
-  margin-left: 10px !important;
-  font-family: Arial Black !important;
+  color: black !important;
+  margin-left: 20px !important;
+	font-weight: bold !important;
    text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
 }
-
+.createBody {
+  color: black !important;
+  margin-left: 20px !important;
+	font-weight: bold !important;
+   text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+}
 body {
   background-color: #DCDCDC !important;
+}
+
+.meTables{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+ 	text-align: left;
 }

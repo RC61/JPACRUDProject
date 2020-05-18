@@ -14,7 +14,7 @@
 
 </head>
 <body>
-
+	<div class="playerBody">
 	<c:forEach var="play" items="${players}">
 	<h1>First Name: ${play.firstName}</h1>
 	<h1>Last Name: ${play.lastName}</h1>
@@ -41,5 +41,6 @@
 	
 
 
+	</div>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <div class="pos-f-t">
 	<div class="collapse" id="navbarToggleExternalContent">
 		<div class="bg-dark p-4">
-			<h4 class="text-white">Why does nothing work on this page??</h4>
+			<h4 class="text-white">Turn around... before it is too late</h4>
 			<a href="sandBox.do">
 			
 |￣￣￣￣￣￣￣ |<br>
