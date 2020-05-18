@@ -43,7 +43,7 @@
 			<div class="container">
 				<form action="getPlayer.do" method="GET">
 					Player ID:<br> <input type="text" name="pid" /><input type="submit"
-						value="Show Player" />
+						value="Search by ID" />
 				</form>
 			</div>
 			<br>
@@ -52,7 +52,7 @@
 			<div class="container">
 				<form action="keywordSearch.do" method="GET">
 					Search Player by first name, last name or position: <br> <input type="text" name="keyword">
-					<input type="submit" value="Search">
+					<input type="submit" value="Search by keyword">
 				</form>
 			</div>
 			<br>
